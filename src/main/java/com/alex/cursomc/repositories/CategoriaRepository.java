@@ -1,9 +1,9 @@
-package com.com.alex.cursomc.repositories;
+package com.alex.cursomc.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.com.alex.cursomc.domain.Categoria;
+import com.alex.cursomc.domain.Categoria;
 
 @Repository
 public interface CategoriaRepository extends JpaRepository<Categoria, Integer>{

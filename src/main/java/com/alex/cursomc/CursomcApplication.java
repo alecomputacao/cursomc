@@ -1,4 +1,4 @@
-package com.com.alex.cursomc;
+package com.alex.cursomc;
 
 import java.util.Arrays;
 
@@ -7,10 +7,10 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.com.alex.cursomc.domain.Categoria;
-import com.com.alex.cursomc.domain.Produto;
-import com.com.alex.cursomc.repositories.CategoriaRepository;
-import com.com.alex.cursomc.repositories.ProdutoRepository;
+import com.alex.cursomc.domain.Categoria;
+import com.alex.cursomc.domain.Produto;
+import com.alex.cursomc.repositories.CategoriaRepository;
+import com.alex.cursomc.repositories.ProdutoRepository;
 
 @SpringBootApplication
 public class CursomcApplication implements CommandLineRunner{
